@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: linear-gradient(to bottom, #300055, #161616);
     --foreground: #ededed;
   }
 }
@@ -23,4 +23,46 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.NavSearchHover {
+  cursor: pointer;
+  padding: 7px 6px;
+}
+
+.BuyButton {
+  background: linear-gradient(to bottom, #4c1d95, #351562);
+  color: #fff;
+  font-weight: 700;
+  padding: 0.5rem 1rem; /* py-2 px-4 */
+  border-radius: 0.25rem; /* rounded */
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  transition: background 200ms ease, transform 100ms ease;
+}
+
+.BuyButton:hover {
+  background: linear-gradient(to bottom, #258feb, #351562); /* from-blue-600 to-blue-500 */
+}
+
+/* Slide animations for carousel entries */
+@keyframes slideInFromRight {
+  from { transform: translateX(30px); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+@keyframes slideInFromLeft {
+  from { transform: translateX(-30px); opacity: 0; }
+  to   { transform: translateX(0);     opacity: 1; }
+}
+
+.carousel-slide--in-right { animation: slideInFromRight 480ms cubic-bezier(.2,.8,.2,1) both; will-change: transform, opacity; }
+.carousel-slide--in-left  { animation: slideInFromLeft  480ms cubic-bezier(.2,.8,.2,1) both; will-change: transform, opacity; }
+
+/* Respect user motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .carousel-slide--in-right,
+  .carousel-slide--in-left {
+    animation: none;
+  }
 }
