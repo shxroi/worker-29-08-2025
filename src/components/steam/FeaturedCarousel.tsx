@@ -4,12 +4,12 @@ import React from "react";
 const dataGames = [
   {
     title: "ROBLOX",
-    mainImage: "/game/roblox-main.webp",
+    mainImage: "/games/roblox-main.webp",
     thumbnails: [
-      "/game/roblox-thumb1.jpg",
-      "/game/roblox-thumb2.jpg",
-      "/game/roblox-thumb3.jpg",
-      "/game/roblox-thumb4.jpg"
+      "/games/roblox-thumb1.jpg",
+      "/games/roblox-thumb2.jpg",
+      "/games/roblox-thumb3.jpg",
+      "/games/roblox-thumb4.jpg"
     ],
     price: "$999.99",
     label: "Buy Now",
@@ -20,28 +20,28 @@ const dataGames = [
   },
   {
     title: "DOTA 2",
-    mainImage: "/game/main1.png",
+    mainImage: "/games/main1.png",
     thumbnails: [
-      "/game/submain1-1.jpg",
-      "/game/submain1-2.jpg",
-      "/game/submain1-3.jpg",
-      "/game/submain1-4.jpg"
+      "/games/submain1-1.jpg",
+      "/games/submain1-2.jpg",
+      "/games/submain1-3.jpg",
+      "/games/submain1-4.jpg"
     ],
     price: "Free to Play",
     label: "Play Now",
     description:
-      "Dota 2 is a multiplayer online battle arena (MOBA) game where two teams of five players compete to destroy the enemy's Ancient. Choose from over 120 unique heroes and experience deep strategic gameplay.",
+      "Dota 2 is a multiplayer online battle arena (MOBA) games where two teams of five players compete to destroy the enemy's Ancient. Choose from over 120 unique heroes and experience deep strategic gameplay.",
     tags: ["MOBA", "Strategy", "Multiplayer", "Free to Play"],
     wishlist: true
   },
   {
     title: "Elden Ring",
-    mainImage: "/game/main-elden.png",
+    mainImage: "/games/main-elden.png",
     thumbnails: [
-      "/game/eldenring-thumb1.jpg",
-      "/game/eldenring-thumb2.jpg",
-      "/game/eldenring-thumb3.jpg",
-      "/game/eldenring-thumb4.jpg"
+      "/games/eldenring-thumb1.jpg",
+      "/games/eldenring-thumb2.jpg",
+      "/games/eldenring-thumb3.jpg",
+      "/games/eldenring-thumb4.jpg"
     ],
     price: "$59.99",
     label: "Buy Now",
@@ -52,12 +52,12 @@ const dataGames = [
   },
   {
     title: "Cyber Punk 2077",
-    mainImage: "/game/cyber-adventure-main.jpg",
+    mainImage: "/games/cyber-adventure-main.jpg",
     thumbnails: [
-      "/game/cyber-thumb1.jpg",
-      "/game/cyber-thumb2.jpg",
-      "/game/cyber-thumb3.jpg",
-      "/game/cyber-thumb4.jpg"
+      "/games/cyber-thumb1.jpg",
+      "/games/cyber-thumb2.jpg",
+      "/games/cyber-thumb3.jpg",
+      "/games/cyber-thumb4.jpg"
     ],
     price: "$49.99",
     label: "Buy Now",
